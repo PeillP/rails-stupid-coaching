@@ -1,8 +1,17 @@
-<h1>Questions#answer</h1>
-<h3>You asked </h3>
-<%= @question %>
+<h1>Stupid Coaching</h1>
 
-<h3>we answer you this</h3>
+<div class="question">
+<%= @question %>
+<h3>-You</h3>
+</div>
+
+<div class="answer">
 <%= @answer %>
+<h3>-Your Coach</h3>
+</div>
 <br>
+
+
+<div class="link">
 <%= link_to 'ask a new question', ask_path(@question) %>
+</div>

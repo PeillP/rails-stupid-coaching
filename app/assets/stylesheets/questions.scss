@@ -7,3 +7,27 @@
 h1 {
   font-size: 50px;
 }
+
+.question {
+  font-family: Georgia;
+  font-style: italic;
+  background-color: white;
+  width: 800px;
+  border-left: 5px;
+  border-color: black;
+}
+
+.answer {
+  font-family: Georgia;
+  font-style: italic;
+  background-color: yellow;
+  border-color: black;
+
+  width: 800px;
+}
+
+.link {
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
